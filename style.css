@@ -6,30 +6,28 @@ body {
   height: 6rem;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    height: 7rem;
-    width: 100vw;
-    border: 2px solid black;
-    flex-direction: row;
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  width: 100vw;
+  border: 2px solid black;
+  flex-direction: row;
 }
 
-.logo-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2.5rem;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5rem;
 }
 
-.burger-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 4rem;
+.burger-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
 }
-
 
 .news {
   width: 100vw;
@@ -49,29 +47,29 @@ nav{
 }
 
 h2 {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .footer {
-    background-color: #ffffff;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #ffffff;
+}
 
 /*scrollmenu*/
-  div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  div.scrollmenu a:hover {
-    background-color: #777;
-  }
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
