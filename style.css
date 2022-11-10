@@ -29,18 +29,6 @@ nav {
   margin-right: 4rem;
 }
 
-.news {
-  width: 100vw;
-  background-color: #ef4144;
-  height: 10vh;
-}
-
-.products {
-  width: 100vw;
-  background-color: #f3e861;
-  height: 10vh;
-}
-
 .about {
   width: 100vw;
   background-color: #b8c9f6;
@@ -49,12 +37,58 @@ nav {
 h2 {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .footer {
   background-color: #ffffff;
 }
 
+.estrella-jul {
+  height: 11rem;
+}
+
+.walkers-jul {
+  height: 10rem;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #ef4144;
+}
+
+.news-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-items p {
+  text-align: center;
+}
+.products-container {
+  width: 100vw;
+  background-color: #f3e861;
+}
+
+.products-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.product-image {
+  height: 7rem;
+}
 /*scrollmenu*/
 div.scrollmenu {
   background-color: #333;
