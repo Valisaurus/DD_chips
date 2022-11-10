@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 6rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    width: 100vw;
+    border: 2px solid black;
+    flex-direction: row;
+
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5rem;
+}
+
+.burger-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+
+.news {
+  width: 100vw;
+  background-color: #ef4144;
+  height: 10vh;
+}
+
+.products {
+  width: 100vw;
+  background-color: #f3e861;
+  height: 10vh;
+}
+
+.about {
+  width: 100vw;
+  background-color: #b8c9f6;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer {
+    background-color: #ffffff;
+  }
