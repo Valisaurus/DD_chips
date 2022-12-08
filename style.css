@@ -100,8 +100,9 @@ h2 {
 .products-items div h3 {
   padding: 2rem 2rem 2rem 0;
 }
-/*scrollmenu*/
-div.scrollmenu {
+scrollmenu
+
+/* div.scrollmenu {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
@@ -117,7 +118,7 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
   background-color: #777;
-}
+} */
 
 /*testamonials*/
 
@@ -245,33 +246,39 @@ footer div span {
   }
 
   /*products section*/
-
-  .products-row {
+  .products-items {
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .products-items article {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    padding: 0rem 0rem 2rem 0rem;
+    flex-direction: column;
+    align-items: center;
   }
 
   .heading-container {
-    width: 10rem;
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
+    width: 97%;
   }
 
-  /* .products-items {
-    display: flex;
-    flex-direction: column;
-    padding: 0 2.2rem 2.2rem 2.2rem;
-    align-items: center;
-  } */
-  /*
-  .products-items div h3 {
-    padding: 2rem 2rem 2rem 0;
-    display: flex;
-    justify-content: center;
+  .heading-container h3 {
+    align-self: flex-start;
+    display: inline-block;
   }
-  */
+  .product-image {
+    height: 12rem;
+  }
+
+  /*testomonials*/
+
+  .testo-container article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
+  }
 }
