@@ -217,3 +217,61 @@ footer {
 footer div span {
   width: 75%;
 }
+
+@media screen and (min-width: 768px) {
+  /* news section */
+  .news-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5.5rem;
+  }
+
+  .estrella-jul {
+    height: 17rem;
+  }
+
+  .walkers-jul {
+    height: 14.5rem;
+  }
+
+  .news-items div {
+    padding-bottom: 2rem;
+  }
+
+  .walker-container {
+    padding-top: 2.5rem;
+  }
+
+  /*products section*/
+
+  .products-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 0rem 2rem 0rem;
+  }
+
+  .heading-container {
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  /* .products-items {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.2rem 2.2rem 2.2rem;
+    align-items: center;
+  } */
+  /*
+  .products-items div h3 {
+    padding: 2rem 2rem 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  */
+}
