@@ -5,16 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div class="logo-container">
-          <img class="logo" src="./images/logo.png" alt="potato logo" />
-        </div>
-        <div class="burger-container">
-          <img src="/images/hamburger.png" alt="" />
+      <nav class="nav-bar">
+        <a href="#" class="nav-branding">
+          <img class="logo" src="images/logo.png" alt="" />
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </nav>
     </header>
@@ -104,10 +118,11 @@
           <div class="center-content">
             <p>
               It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The point
-              of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here, content
-              here', making it look like readable English. Many desktop publishing
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing
             </p>
           </div>
         </article>
@@ -144,5 +159,6 @@
         </div>
       </div>
     </footer>
+    <script src="nav.js"></script>
   </body>
 </html>

@@ -10,16 +10,12 @@ body {
 
 /*header*/
 
-.logo {
-  height: 6rem;
-}
-
+/*
 nav {
   display: flex;
   justify-content: space-between;
   height: 7rem;
   width: 100vw;
-  border: 2px solid black;
   flex-direction: row;
 }
 
@@ -36,7 +32,7 @@ nav {
   align-items: center;
   margin-right: 4rem;
 }
-
+*/
 /*news*/
 
 h2 {
@@ -67,8 +63,13 @@ h2 {
   align-items: center;
 }
 
+.news-items div {
+  padding-bottom: 2rem;
+}
+
 .news-items p {
   text-align: center;
+  padding-top: 1rem;
 }
 .products-container {
   width: 100vw;
