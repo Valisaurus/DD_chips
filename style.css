@@ -143,8 +143,9 @@ div.scrollmenu a:hover {
   gap: 2rem;
   padding-left: 4rem;
   padding-right: 4rem;
+  margin-bottom: 6rem;
   align-items: center;
-  width: AUTO;
+  width: auto;
   height: 10rem;
   box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -169,6 +170,7 @@ div.scrollmenu a:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  align-items: center;
 }
 
 .center-content {
@@ -177,10 +179,18 @@ div.scrollmenu a:hover {
   text-align: center;
 }
 
-.about div p {
+.abt-text {
   width: 75%;
 }
 .abt-img {
+  width: 75%;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 75%;
 }
 
@@ -278,7 +288,26 @@ footer div span {
     flex-direction: row;
     justify-content: center;
     gap: 5rem;
-    padding-bottom: 8rem;
     padding-top: 2rem;
+  }
+
+  /* about us */
+
+  .about article {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 5rem;
+  }
+
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .abt-text {
+    text-align: left;
+    font-size: 1.3rem;
   }
 }
