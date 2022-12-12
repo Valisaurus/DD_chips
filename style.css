@@ -1,3 +1,23 @@
+:root {
+  --heading-font-family: "Nerko One";
+  --paragraph-font-family: "Mukta";
+}
+
+@font-face {
+  font-family: "Nerko One";
+  src: url("./fonts/NerkoOne-Regular.woff2") format("woff2"),
+    url("./fonts/NerkoOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mukta";
+  src: url("./fonts/Mukta-Regular.woff") format("woff2"),
+    url("./fonts/Mukta-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*general*/
 * {
   margin: 0px;
@@ -40,6 +60,7 @@ h2 {
   padding: 2rem;
   text-align: center;
   font-size: xx-large;
+  font-family: var(--heading-font-family), sans-serif;
 }
 
 .estrella-jul {
@@ -71,6 +92,14 @@ h2 {
   text-align: center;
   padding-top: 1rem;
 }
+
+p {
+  font-family: var(--paragraph-font-family), sans-serif;
+}
+
+span {
+  font-family: var(--paragraph-font-family), sans-serif;
+}
 .products-container {
   width: 100vw;
   background-color: #f3e861;
@@ -100,7 +129,10 @@ h2 {
 .products-items div h3 {
   padding: 2rem 2rem 2rem 0;
 }
-scrollmenu
+
+h3 {
+  font-family: var(--paragraph-font-family), sans-serif;
+}
 
 /* div.scrollmenu {
   background-color: #333;
